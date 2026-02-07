@@ -26,12 +26,12 @@ public class BST {
         return root;
     }
 
-    void inorder (Node root) { // To check if binary search tree is properly created - Elements - Sorted Order - Increasing
+    void inorder (Node root) { // To check if binary search tree is properly created - Elements - Sorted order - Increasing
 
         if (root != null) {
             inorder(root.left);
             System.out.println(root.data + " -> ");
             inorder(root.right);
         }
-    } 
+    }
 }

@@ -66,7 +66,7 @@ class BinaryTree
         q.add(root);
 
         while(!q.isEmpty())
-        {
+        { 
             Node temp = q.poll();
 
             // if(temp == null) {
